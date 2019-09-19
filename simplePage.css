@@ -1,0 +1,54 @@
+﻿
+/*
+THEME COLOR:
+------------
+#F7F5E6
+#333A56
+#52658F
+#E8E8E8
+*/
+
+/* GENERAL GENERAL GENERAL */
+
+/* Variables - Konstanty*/
+:root{
+--main-text-color: #808F87;
+}
+
+
+
+*{
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+
+}
+
+button{
+background-color: #333A56;
+}
+
+body{
+background-color: #fff;
+
+}
+
+h1, h2, h3, h4, h5, h6{
+color: var(--main-text-color);
+text-align: center;
+}
+
+
+/* --- --- --- --- --- */
+
+#col3-container{
+display: grid;
+grid-template-columns: auto auto auto;
+
+}
+
+.col3{
+margin: auto;
+padding: 0.2em;
+width: 80%;
+} 
